@@ -1,0 +1,146 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+i{
+  text-decoration:none;
+   display:block;
+   font-size: 1rem;
+   color: #FEF2BF;
+   font-family: 'Press Start 2P', cursive;
+   line-height: 2;
+}
+li{
+  margin:2% auto;
+}
+p{
+position: relative;
+  font-family: 'Press Start 2P', cursive;
+  top: -10%;
+  left:2%;
+  font-size: 5rem;
+  color: #FEF2BF;
+   text-shadow: 2px 2px 5px black;
+}
+ul{
+  list-style-type:none;
+}
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin: 3% 5% 4%;
+  color: #FEF2BF;
+  line-height: 2;
+}
+.you{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+
+  color: #FEF2BF;
+}
+.container {
+
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+.bt{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  color: #FEF2BF;
+}
+.uli{
+list-style-type:none;
+text-align: left;
+font-family: 'Press Start 2P', cursive;
+font-size: 1rem;
+color: #FEF2BF;
+max-width: 600px;
+line-height: 2;
+margin: 3% auto;
+}
+.btn {
+  margin: 23px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  background-color: grey;
+}
+.pressed_key{
+  color:grey;
+  text-shadow: none;
+}
+.answer{
+  display: none;
+  position: absolute;
+  left:5%;
+text-align: center;
+  top:50%;
+}
+.btna{
+  margin: 25px;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+.num{
+  position: relative;
+    font-family: 'Press Start 2P', cursive;
+    top: -20%;
+    left:2%;
+    font-size: 3rem;
+    color: #FEF2BF;
+     text-shadow: 2px 2px 5px black;
+}
+.link{
+  color:#FEF2BF;
+text-shadow: 1px 2px 3px #00a8cc;
+text-decoration: none;
+}
+.link:hover{
+  text-shadow: none;
+  color: rgba(254,242,191,0.8);
+}
+
+.tips{
+
+   font-size: 1rem;
+   color: #FEF2BF;
+   font-family: 'Press Start 2P', cursive;
+   line-height: 2;
+   text-align: left;
+   position: absolute;
+   left:0;
+   top:30%;
+   max-width: 550px;
+}
