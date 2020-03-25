@@ -3,40 +3,20 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Simon</title>
+  <title>game 90's</title>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 
 <body>
   <h1 id="level-title">Press A Key to Start</h1>
-
-  <div class="container">
-    <div class="row">
-
-      <div type="button" id="green" class="btn green">
-       <p id="green1" class="">7</p>
-      </div>
-
-      <div type="button" id="red" class="btn red">
-<p id="red1" class="">9</p>
-      </div>
+<div class="flex-cotainer">
+  <div class="side">
+    <div class="count">
+      <i> <span>0</span>  Button left.</i>
     </div>
-
-    <div class="row">
-
-      <div type="button" id="yellow" class="btn yellow">
-<p id="yellow1" class="">1</p>
-      </div>
-      <div type="button" id="blue" class="btn blue">
-<p id="blue1" class="">3</p>
-      </div>
-
-    </div>
-
-  </div>
   <div class="answer">
-    <i >This is The Right Button</i>
+    <i >This is The Right <br> Button</i>
     <div type="button" class="btna ">
      <p  class="num">7</p>
     </div>
@@ -45,11 +25,29 @@
     <ul>
       <li>You Have to follow the clicked buttons.</li>
       <li>You can either use the keyboard or the mouse.</li>
-      <li>Get to level 10 and receive a cookie, Yummi!</li>
-      <br>
-      <li>have fun.</li>
+      <li>Get to level 10 and win !</li>
     </ul>
   </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div type="button" id="green" class="btn green">
+     <p id="green1" class="">7</p>
+    </div>
+    <div type="button" id="red" class="btn red">
+<p id="red1" class="">9</p>
+    </div>
+  </div>
+  <div class="row">
+    <div type="button" id="yellow" class="btn yellow">
+<p id="yellow1" class="">1</p>
+    </div>
+    <div type="button" id="blue" class="btn blue">
+<p id="blue1" class="">3</p>
+    </div>
+  </div>
+</div>
+</div>
   <footer style="color:white; font-family:sans-serif; margin : 0.8%; font-size:1.1rem;">Created by <a href="https://github.com/kurlex/game_90-s" target="_blank" class="link">Kurlex</a> </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="game.js" charset="utf-8"></script>
